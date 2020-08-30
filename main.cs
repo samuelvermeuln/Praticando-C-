@@ -24,10 +24,40 @@ class MainClass {
   }
 
   public static void ex4 () {     
-    
+    Console.WriteLine(" 4 notas bimestrais e mostre a média");
+
+    double num11, num22, num33, num44;
+    string a1, b2, c3, d4;
+    double result1;
+
+    Console.WriteLine ("Primeira nota: ");
+    a1 = Console.ReadLine();
+    num11 = double.Parse(a1);
+
+    Console.WriteLine ("Segunda nota: ");
+    b2 = Console.ReadLine();
+    num22 = double.Parse(b2);
+
+    Console.WriteLine ("Terceira nota: ");
+    c3 = Console.ReadLine();
+    num33 = double.Parse(c3);
+
+    Console.WriteLine ("Quarta nota: ");
+    d4 = Console.ReadLine();
+    num44 = double.Parse(d4);
+
+    result1 = (num11 + num22 + num33 + num44) / 4;
+    Console.WriteLine ("Sua média foi de : " + result1);
+
   }
 
   public static void Main () {
-    ex3();
+    //ex3(); 
+    //ex4();
+
+    /* 
+              REMOVA O // PARA CHAMAR A FUNÇÃO DESEJADA 
+    */
+    Console.WriteLine ("OBRIGADO !!");
   }
 }
